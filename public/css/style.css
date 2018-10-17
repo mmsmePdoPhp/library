@@ -2,34 +2,39 @@ body{
     direction: rtl;
     margin: 0px;
     padding:0px;
+    width:100%;
 }
 
 /*coding for menue bar file hader.php */
+.header-page{
+    background-color:darkorange;
+    height: 40px;
+    margin:0px;
+    position: relative;
+    width:100%;
+    float:right;
+}
 .menu-bar{
     margin:0px;
-    padding:0px;
-    width:100%;
-    background-color:gray;
-    height: 100px;
-    font-size:1.3rem;
-    position: absolute;
-    overflow:hidden;
-
-}
-.menu-bar ul li{
-    overflow:hidden;
-    display: inline;
-    text-align: center;
-    align-content: center;
-    margin:6px;
-    padding:10px;
-    background-color: darkgray;
-    border-radius: 10px;
-
-}
-.menu-bar ul li a{
-    overflow:unset;
-    color:crimson;
     
-    text-decoration:none;
+    height: auto;
+    position: relative;
+    float:right;
+}
+
+.menu-bar tr td{
+
+  padding:10px;
+  margin:5px;
+  display:intdne;
+  color:deeppink;
+  background-color: darksalmon;
+  border-radius: 10px;
+  font-size:1.1rem;
+  position: relative;
+  overflow:hidden;
+ 
+}
+.menu-bar tr td a{
+    text-decoration: none;
 }

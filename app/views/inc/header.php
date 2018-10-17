@@ -8,28 +8,31 @@
     <title>My Note Phone</title>
 </head>
 <body>
-<nav class="menu-bar">
-    <ul>
-        <li>
-            <a href="#">صفحه ی اصلی</a>
-        </li>
-        <li>
-            <a href="#">پنل مدیریت</a>
-        </li>
-        <li>
-            <a href="#">پنل کاربری</a>
-        </li>
-        <li>
-            <a href="#">درج اطلاعات</a>
-        </li>
-        <li>
-            <a href="#">گرفتن اطلاعات</a>
-        </li>
-        <li>
-            <button id="submit-search">Search</button>
-            <input type="search" name="serach" id="search">
-            
-        </li>
-    </ul>
-</nav>
+<header id="header">
+    <div class="header-page"></div>
+    <table class="menu-bar">
+        <tr>
+            <td>
+                <a href="#">صفحه ی اصلی</a>
+            </td>
+            <td>
+                <a href="#">پنل مدیریت</a>
+            </td>
+            <td>
+                <a href="#">پنل کاربری</a>
+            </td>
+            <td>
+                <a href="#">درج اطلاعات</a>
+            </td>
+            <td>
+                <a href="#">گرفتن اطلاعات</a>
+            </td>
+            <td>
+                <button id="submit-search">Search</button>
+                <input type="search" name="serach" id="search">
+            </td>
+        </tr>
+</table>
+</header><br ><hr >
+
     
