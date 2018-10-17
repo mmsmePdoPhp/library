@@ -1,13 +1,10 @@
 <?php
-class Post{
-    private $db;
 
-    public function __construct(){
-      $this->db = new Database;
-    }
+class Post extends Database{
 
     public function getPost(){
-        $this->db->query("SELECT * FROM users");
-        return $this->db->resultSet();
+        $sql = "SELECT * FROM users";
+        $this->query($sql);
+        return $this->resultSet();
     }
 }
