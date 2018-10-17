@@ -7,7 +7,7 @@ class Pages extends Controller{
     public function Index($id=0){
         $posts = $this->PostModel->getPost();
        $data=array(
-           'title'=>'Welcome to my Home page',
+           'title'=>'به صفحه ی اصلی خوش آمدید!',
            'post'=>$posts
        );
         $this->view('Pages/index',$data);

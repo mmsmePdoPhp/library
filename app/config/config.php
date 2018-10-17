@@ -1,9 +1,9 @@
 <?php
 //set attribute database
 define('DB_HOST','localhost');
-define('DB_NAME','pdo');
-define('DB_USER','web');
-define('DB_PASS','950238032');
+define('DB_NAME','phone');
+define('DB_USER','root');
+define('DB_PASS','');
 
 
 //APPROOT
