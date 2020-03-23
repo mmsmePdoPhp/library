@@ -10,7 +10,7 @@ define('DB_PASS','');
 define('APPROOT',dirname(dirname(__FILE__)));
 
 //URLROOT
-define('URLROOT','http://localhost/');
+define('URLROOT','http://localhost/mvc');
 
 //SiteName
 define('SITENAME','TravercyMVC');

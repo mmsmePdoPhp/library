@@ -4,7 +4,7 @@ class Posts extends Controller{
     public function __construct()
     {
         echo 'your page is loaded.<br >';
-    }
+    }   
 
     public function Index(){
         $obj = $this->model('Idea');
