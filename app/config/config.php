@@ -1,7 +1,7 @@
 <?php
 //set attribute database
 define('DB_HOST','localhost');
-define('DB_NAME','web');
+define('DB_NAME','firstdatabase');
 define('DB_USER','root');
 define('DB_PASS','');
 
