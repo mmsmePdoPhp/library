@@ -16,8 +16,9 @@
         
         
         
-        <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/bootstrap.css" >
-        <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/bootstrap-vue.css" >
+        <link rel="stylesheet" href="<?php echo URLROOT; ?>/public/node_modules/bootstrap/dist/css/bootstrap.css" >
+      
+        <link rel="stylesheet" href="<?php echo URLROOT; ?>/public/node_modules/@fortawesome/fontawesome-free/css/all.css" >
         <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/style.css" > 
         
       
@@ -26,5 +27,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container" id="app">
+    <div class="container-fluid" id="app">
     
+    <?php require_once (APPROOT.'/views/inc/navbar.php') ?>
+
