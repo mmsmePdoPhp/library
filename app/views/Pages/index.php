@@ -5,10 +5,10 @@
     
         <?php
         foreach($data['post'] as $post){
-            echo '<li>'.$post->firstname.'</li>' ;
+            echo '<li>'.$post->firstame.'</li>' ;
         }
         ?>
-    
+    کا فرهاد امه ابینیت
 </ul>
 <?php require_once (APPROOT.'/views/inc/footer.php') ?>
 
