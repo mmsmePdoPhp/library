@@ -1,7 +1,7 @@
 <?php
 //set attribute database
 define('DB_HOST','localhost');
-define('DB_NAME','firstdatabase');
+define('DB_NAME','library');
 define('DB_USER','root');
 define('DB_PASS','');
 
@@ -10,7 +10,7 @@ define('DB_PASS','');
 define('APPROOT',dirname(dirname(__FILE__)));
 
 //URLROOT
-define('URLROOT','http://localhost/mvc');
+define('URLROOT','http://localhost/library/');
 
 //SiteName
 define('SITENAME','TravercyMVC');

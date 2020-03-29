@@ -5,7 +5,7 @@
     
         <?php
         foreach($data['post'] as $post){
-            echo '<li>'.$post->name.'</li>' ;
+            echo '<li>'.$post->firstname.'</li>' ;
         }
         ?>
     
