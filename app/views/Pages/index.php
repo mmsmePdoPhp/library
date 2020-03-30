@@ -6,7 +6,7 @@
 
 
     <?php for ($i = 0; $i < 8; $i++) { ?>
-        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-3 justify-content-between card-body card-book">
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-0 py-2 justify-content-between card-body card-book">
             <div class="row border border-info">
                 <div class="card col-6 h-100 my-auto px-0" style="width: 10rem;">
                     <img class="card-img-top img-fluid" src="https://m.media-amazon.com/images/I/71tLAzeDwsL._AC_UY218_ML3_.jpg" alt="Card image cap">
