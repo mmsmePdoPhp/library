@@ -21,8 +21,10 @@
         <link rel="stylesheet" href="<?php echo URLROOT; ?>/public/node_modules/@fortawesome/fontawesome-free/css/all.css" >
         <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/style.css" > 
         
+<script src="<?php echo URLROOT; ?>/public/node_modules/vue/dist/vue.js" ></script>
       
-
+<script src="<?php echo URLROOT; ?>/public/node_modules/axios/dist/axios.js" ></script>
+    
     
     <title>HomePage</title>
 </head>

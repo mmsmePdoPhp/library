@@ -1,13 +1,13 @@
 <?php
-class Post{
+class Group{
     private $db;
 
     public function __construct(){
       $this->db = new Database;
     }
 
-    public function getPost(){
-        $this->db->query("SELECT * FROM users");
+    public function getGroups(){
+        $this->db->query(" SELECT * FROM grouplist");
         return $this->db->resultSet();
     }
 }

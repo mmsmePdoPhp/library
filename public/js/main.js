@@ -4,31 +4,54 @@ new Vue({
         expandDropdownLeft: false,
         expandDropdownRight: false,
         message: 'hi',
-        topNavbarCollapsed: false
+        topNavbarCollapsed: false,
+        groupLists:null,
+        groupValue:null,
+        selected:[]
     },
     methods: {
-        toggleDropDownLeft() {
+        toggleDropDownLeft: function() {
             this.expandDropdownLeft = !this.expandDropdownLeft;
         },
-        toggleDropDownRight() {
+        toggleDropDownRight: function() {
             this.expandDropdownRight = !this.expandDropdownRight;
         },
-        toggleNavbarCollapse() {
+        toggleNavbarCollapse: function() {
             this.topNavbarCollapsed = !this.topNavbarCollapsed;
-        }
-    },
-    created() {
-        axios.get('http://localhost/library/pages/about')
+        },
+        getListGroups: function(){
+            var n=this;
+            axios.get('http://localhost/library/groups/index',{responseType:JSON})
+
             .then(function (response) {
                 // handle success
-                console.log(response);
+                n.groupLists=response.data;
+                console.log(response)
             })
             .catch(function (error) {
                 // handle error
                 console.log(error);
             })
             .finally(function () {
-                console.log('always executed')
+                // console.log('always executed')
             });
+        },
+        appendSelect: function(){
+            // if(this.selected.indexOf(this.groupValue))
+                // console.log(this.selected.indexOf(this.groupValue))
+            this.selected.push(this.groupValue);
+        },
+        removeSelected: function(){
+
+        }
+    
+        
+    },
+    created() {
+        this.getListGroups()  
+    },
+    mounted: function() {
+        // this.getListGroups()
+        
     },
 });

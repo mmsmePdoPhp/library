@@ -1,17 +1,16 @@
 <?php
 
-class Pages extends Controller{
+class Groups extends Controller{
     public function __construct(){
-       $this->PostModel = $this->model('Post');
+       $this->PostModel = $this->model('Group');
     }
 
     public function Index($id=0){
-        // $posts = $this->PostModel->getPost();
+        $groups = $this->PostModel->getGroups();
        $data=array(
-           'title'=>'Welcome to my Home page',
-        //    'post'=>$posts
+           'groups'=>$groups
        );
-        $this->view('Pages/index',$data);
+        $this->view('Search/group',$data);
     }
 
     public function about(){
