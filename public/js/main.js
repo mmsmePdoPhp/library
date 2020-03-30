@@ -18,7 +18,7 @@ new Vue({
         }
     },
     created() {
-        axios.get('/user?ID=12345')
+        axios.get('http://localhost/library/pages/about')
             .then(function (response) {
                 // handle success
                 console.log(response);
@@ -28,7 +28,7 @@ new Vue({
                 console.log(error);
             })
             .finally(function () {
-                // always executed
+                console.log('always executed')
             });
     },
 });
