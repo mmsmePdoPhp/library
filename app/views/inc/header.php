@@ -24,10 +24,10 @@
       
 
     
-    <title>Document</title>
+    <title>HomePage</title>
 </head>
 <body>
-    <div class="container-fluid" id="app">
+    <div class="container-fluid p-0" id="app">
     
     <?php require_once (APPROOT.'/views/inc/navbar.php') ?>
 
