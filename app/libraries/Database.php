@@ -29,9 +29,9 @@ class Database{
     }
 
     //prepare statement with query
-    public function query($sql){
-        $this->smt = $this->dbh->prepare($sql);
-    }
+    // public function query($sql){
+    //     $this->smt = $this->dbh->prepare($sql);
+    // }
 
     public function bind($param, $value, $type = null){
         if(is_null($type)){

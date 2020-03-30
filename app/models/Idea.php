@@ -1,9 +1,9 @@
 <?php
-class Idea extends Database{
+// class Idea extends Database{
 
-    public function getinfo(){
+//     public function getinfo(){
         
-        $this->query("SELECT * FROM info");
-        return $this->resultSet();
-    }
-}
+//         $this->query("SELECT * FROM info");
+//         return $this->resultSet();
+//     }
+// }
